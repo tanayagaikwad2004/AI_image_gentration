@@ -1,0 +1,12 @@
+# requirements.txt
+diffusers["torch"]
+transformers
+accelerate
+huggingface_hub[cli]
+safetensors
+torch            # prefer install from pytorch.org for correct CUDA build
+fastapi
+uvicorn
+streamlit
+pillow
+requests
